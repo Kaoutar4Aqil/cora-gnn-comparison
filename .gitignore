@@ -1,0 +1,33 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Downloaded datasets
+data/Planetoid/
+data/*.pt
+data/*.npz
+data/*.npy
+
+# Model checkpoints
+models/*.pt
+models/*.pth
+models/*.ckpt
+
+# Editor files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
